@@ -1,8 +1,36 @@
 # 𝕏 TweetFlick — X UI Clone
 
-A responsive frontend recreation of **X (formerly Twitter)** built using **HTML, Tailwind CSS, and Vite**.
+A responsive frontend recreation of **X (formerly Twitter)** built with **HTML, Tailwind CSS, and Vite**.
 
-TweetFlick focuses on recreating the familiar X interface with a responsive three-column layout, navigation sidebar, central feed, search, trends, and profile-related UI components.
+TweetFlick recreates the familiar X interface with a desktop three-column layout, mobile responsive feed, navigation sidebar, post composer, trending section, discovery panel, and profile UI.
+
+---
+
+## 🖼️ Platform Preview
+
+### Desktop Home
+
+![TweetFlick Desktop Home](screenshots/tweetflick-home.png)
+
+### Feed Experience
+
+![TweetFlick Feed](screenshots/tweetflick-feed.png)
+
+### Discovery & Trends
+
+![TweetFlick Discovery](screenshots/tweetflick-discovery.png)
+
+### Sidebar Navigation
+
+![TweetFlick Sidebar](screenshots/tweetflick-sidebar.png)
+
+### Mobile Responsive View
+
+![TweetFlick Mobile](screenshots/tweetflick-mobile.png)
+
+### Setup Guide
+
+![TweetFlick Setup Guide](screenshots/tweetflick-setup-guide.png)
 
 ---
 
@@ -10,25 +38,34 @@ TweetFlick focuses on recreating the familiar X interface with a responsive thre
 
 * Responsive X/Twitter-inspired interface
 * Three-column desktop layout
+* Mobile responsive experience
 * Navigation sidebar
-* Tweet/feed interface
-* Search section
-* Trending topics UI
-* Profile and account components
-* Responsive styling for different screen sizes
-* Utility-first styling with Tailwind CSS
-* Fast local development using Vite
+* Tweet/post feed
+* Post composer
+* Engagement counters
+* Search interface
+* Trending topics
+* Premium subscription card
+* Who-to-follow section
+* Profile/account UI
+* Tailwind CSS utility styling
+* Vite development environment
 
-> This project currently focuses primarily on frontend UI and design.
+> TweetFlick currently focuses primarily on frontend UI recreation and responsive design.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **HTML5**
-* **Tailwind CSS v4**
-* **Vite**
-* **Node.js / npm**
+| Technology      | Purpose                       |
+| --------------- | ----------------------------- |
+| HTML5           | Application structure         |
+| Tailwind CSS v4 | Styling and responsive design |
+| Vite            | Development server            |
+| Node.js         | Development environment       |
+| npm             | Dependency management         |
+| Git             | Version control               |
+| GitHub          | Repository hosting            |
 
 ---
 
@@ -36,6 +73,14 @@ TweetFlick focuses on recreating the familiar X interface with a responsive thre
 
 ```text
 TweetFlick-X-Clone-
+│
+├── screenshots/
+│   ├── tweetflick-home.png
+│   ├── tweetflick-feed.png
+│   ├── tweetflick-discovery.png
+│   ├── tweetflick-sidebar.png
+│   ├── tweetflick-mobile.png
+│   └── tweetflick-setup-guide.png
 │
 ├── src/
 │   ├── index.html
@@ -53,112 +98,228 @@ TweetFlick-X-Clone-
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sh1vesh/TweetFlick-X-Clone-.git
 ```
 
-### 2. Enter the project directory
+### 2. Enter the Project Directory
 
 ```bash
 cd TweetFlick-X-Clone-
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start Tailwind CSS
-
-Open one terminal and run:
-
-```bash
-npm run build
-```
-
-This watches `src/input.css` and generates the compiled stylesheet in `src/output.css`.
-
-### 5. Start the development server
-
-Open another terminal and run:
-
-```bash
-npm run dev
-```
-
-Vite will display a local development URL in the terminal.
-
-Open that URL in your browser.
-
 ---
 
-## 📜 Available Scripts
+## 🎨 Run Tailwind CSS
 
-### Development Server
-
-```bash
-npm run dev
-```
-
-Starts the project using Vite.
-
-### Tailwind CSS Watcher
+Open a terminal inside the project folder and run:
 
 ```bash
 npm run build
 ```
 
-Watches:
+This watches:
 
 ```text
 src/input.css
 ```
 
-and outputs the compiled CSS to:
+and generates:
 
 ```text
 src/output.css
 ```
 
+Keep this terminal running while developing.
+
 ---
 
-## 📸 Screenshots
+## ⚡ Start the Vite Development Server
 
-Screenshots and additional previews of TweetFlick will be added here.
+Open another terminal in the same project directory:
+
+```bash
+npm run dev
+```
+
+Vite will display a local URL, usually:
+
+```text
+http://localhost:5173/
+```
+
+Open it in your browser.
+
+---
+
+## 📜 Available Commands
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Start Tailwind Watcher
+
+```bash
+npm run build
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 🧭 Navigation
+
+TweetFlick recreates the main X navigation experience with:
+
+* Home
+* Explore
+* Notifications
+* Messages
+* Grok
+* Communities
+* Premium
+* Verified Organizations
+* Profile
+* More
+* Post button
+
+---
+
+## 📰 Feed Experience
+
+The main feed contains:
+
+* User avatars
+* Display names
+* User handles
+* Post timestamps
+* Text posts
+* Image posts
+* Replies
+* Reposts
+* Likes
+* Views
+* Bookmarks
+* Share actions
+
+---
+
+## 🔎 Discovery Panel
+
+The desktop interface includes a dedicated right-side discovery area featuring:
+
+* Search
+* Premium subscription section
+* What's Happening
+* Trending topics
+* Promoted content
+* Who to Follow suggestions
+
+---
+
+## 📱 Responsive Design
+
+TweetFlick uses Tailwind responsive utilities to adapt the interface across different screen sizes.
+
+On smaller displays:
+
+* Sidebar labels are hidden
+* Navigation becomes icon-focused
+* Discovery panel disappears
+* Feed receives more screen space
+* Layout remains usable on mobile screens
+
+---
+
+## 🎯 Project Goals
+
+This project was created to practice and demonstrate:
+
+* Frontend development
+* Responsive layouts
+* Tailwind CSS
+* UI recreation
+* Flexbox-based layouts
+* Mobile breakpoints
+* Vite development workflow
+* Git and GitHub usage
+* Project documentation
 
 ---
 
 ## 🔮 Future Improvements
 
-Planned improvements include:
+Planned or possible improvements include:
 
-* JavaScript-based interactivity
-* Functional tweet composer
-* Like and repost interactions
-* Comment/reply functionality
-* Dynamic feeds
-* User authentication
+* Functional post creation
+* Like interactions
+* Reply system
+* Repost functionality
+* Bookmarking
+* Search functionality
+* Follow/unfollow interactions
 * Profile pages
-* Backend integration
+* User authentication
+* Dynamic trending topics
+* Backend API integration
 * Database integration
-* Improved mobile responsiveness
-* Dark/light theme support
+* Persistent posts
+* Dark/light mode
+* Improved accessibility
+* Better mobile navigation
 
 ---
 
-## 🎯 Purpose
+## 📦 Requirements
 
-TweetFlick was created as a frontend development project to practice:
+Before running TweetFlick, make sure the following are installed:
 
-* Responsive layouts
-* Tailwind CSS
-* UI recreation
-* Modern frontend project structure
-* Vite development workflow
-* Git and GitHub version control
+* Node.js
+* npm
+* Git
+
+Check with:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+---
+
+## 🔧 Development Workflow
+
+After making changes:
+
+```bash
+git add .
+git commit -m "Describe your changes"
+git push
+```
+
+Example:
+
+```bash
+git add .
+git commit -m "Improve TweetFlick interface"
+git push
+```
 
 ---
 
@@ -172,8 +333,8 @@ GitHub: [@sh1vesh](https://github.com/sh1vesh)
 
 ## ⚠️ Disclaimer
 
-This project is intended for **educational and demonstration purposes only**.
+TweetFlick is an independent frontend recreation created for **educational, learning, and demonstration purposes**.
 
-TweetFlick is not affiliated with, endorsed by, or connected to **X Corp. or Twitter/X**.
+This project is not affiliated with, endorsed by, or officially connected to **X Corp., Twitter, or X**.
 
-All trademarks, logos, and brand names belong to their respective owners.
+All trademarks, logos, names, and brand assets belong to their respective owners.
