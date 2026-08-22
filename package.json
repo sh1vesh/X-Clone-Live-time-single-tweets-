@@ -1,16 +1,24 @@
 {
-  "name": "tailwindcss",
+  "name": "tweetflick-x-clone",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "description": "A responsive X (Twitter) interface clone built with HTML, Tailwind CSS and Vite.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "dev": "vite"
+    "dev": "vite",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "x-clone",
+    "twitter-clone",
+    "tailwindcss",
+    "vite",
+    "frontend",
+    "responsive-ui"
+  ],
+  "author": "Shivesh",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11",
